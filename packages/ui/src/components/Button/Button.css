@@ -1,0 +1,42 @@
+.nm-button {
+    font-family: inherit;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Sizes */
+  .nm-button[data-size='sm'] {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+  
+  .nm-button[data-size='md'] {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  
+  .nm-button[data-size='lg'] {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  /* Variants */
+  .nm-button[data-variant='primary'] {
+    background-color: var(--nm-color-primary);
+    color: var(--nm-color-text);
+  }
+  
+  .nm-button[data-variant='secondary'] {
+    background-color: transparent;
+    color: var(--nm-color-primary);
+    border: 1px solid var(--nm-color-primary);
+  }
+  
+  .nm-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  

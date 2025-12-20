@@ -12,7 +12,11 @@
     "baseUrl": ".",
     "paths": {
       "@neomatrix/tokens": ["packages/tokens/src"],
-      "@neomatrix/tokens/*": ["packages/tokens/src/*"]
+      "@neomatrix/tokens/*": ["packages/tokens/src/*"],
+      "@neomatrix/theme": ["packages/theme/src"],
+      "@neomatrix/theme/*": ["packages/theme/src/*"],
+      "@neomatrix/ui": ["packages/ui/src"],
+      "@neomatrix/ui/*": ["packages/ui/src/*"],
     }
   }
 }
