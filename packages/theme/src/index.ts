@@ -1,3 +1,5 @@
 export * from './types'
 export * from './light'
+export * from './dark'
 export * from './applyTheme'
+export * from './getTheme'
