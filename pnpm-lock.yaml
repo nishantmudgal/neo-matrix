@@ -11,12 +11,17 @@ importers:
       turbo:
         specifier: ^2.7.0
         version: 2.7.0
-
-  packages/tokens:
-    devDependencies:
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
+
+  packages/theme:
+    dependencies:
+      '@neomatrix/tokens':
+        specifier: workspace:*
+        version: link:../tokens
+
+  packages/tokens: {}
 
 packages:
 

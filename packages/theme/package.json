@@ -1,13 +1,14 @@
 {
-  "name": "@neomatrix/tokens",
+  "name": "@neomatrix/theme",
   "version": "0.0.0",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "scripts": {
     "build": "tsc"
+  },
+  "dependencies": {
+    "@neomatrix/tokens": "workspace:*"
   }
 }
