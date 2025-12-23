@@ -1,6 +1,5 @@
 {
-    "buildCommand": "pnpm build && pnpm --filter ./apps/storybook build-storybook",
-    "outputDirectory": "apps/storybook/storybook-static",
-    "framework": null
-  }
-  
+  "buildCommand": "pnpm build && pnpm --filter ./apps/storybook build-storybook -- --output-dir ../../storybook-static",
+  "outputDirectory": "storybook-static",
+  "framework": null
+}
