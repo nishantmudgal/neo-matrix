@@ -9,6 +9,5 @@
   },
   "include": [
     ".storybook",
-    "src"
-  ]
+    "stories"  ]
 }
