@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@neomatrix/ui": ["../../packages/ui/src/index.ts"],
+      "@neomatrix/ui/*": ["../../packages/ui/src/*"]
+    }
+  },
+  "include": [
+    ".storybook",
+    "src"
+  ]
+}
