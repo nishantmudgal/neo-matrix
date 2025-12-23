@@ -1,7 +1,6 @@
 import React from 'react'
 import type { Preview } from '@storybook/react-vite'
 import { NeoMatrixThemeProvider } from '@neomatrix/ui'
-import '../stories/global.css'
 
 const preview: Preview = {
   globalTypes: {

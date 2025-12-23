@@ -9,8 +9,8 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@neomatrix/theme": "workspace:*",
-    "@neomatrix/tokens": "workspace:*",
+    "@neomatrix/theme": "workspace:^",
+    "@neomatrix/tokens": "workspace:^",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

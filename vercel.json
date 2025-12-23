@@ -1,6 +1,6 @@
 {
-    "buildCommand": "pnpm build && pnpm --filter neomatrix-storybook build-storybook",
+    "buildCommand": "pnpm build && pnpm --filter ./apps/storybook build-storybook",
     "outputDirectory": "apps/storybook/storybook-static",
     "framework": null
-}
+  }
   
