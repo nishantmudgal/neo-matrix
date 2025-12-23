@@ -2,13 +2,18 @@ import { useEffect } from 'react'
 import { applyTheme, getTheme, ThemeMode } from '@neomatrix/theme'
 
 type Props = {
-  mode: ThemeMode
+  mode?: ThemeMode
   children: React.ReactNode
 }
 
-export function NeoMatrixThemeProvider({ mode, children }: Props) {
+let activeTheme: ThemeMode | null = null
+
+export function NeoMatrixThemeProvider({ mode = 'light', children }: Props) {
   useEffect(() => {
-    applyTheme(getTheme(mode))
+    if (activeTheme !== mode) {
+      applyTheme(getTheme(mode))
+      activeTheme = mode
+    }
   }, [mode])
 
   return <>{children}</>
