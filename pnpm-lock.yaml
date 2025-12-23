@@ -117,10 +117,10 @@ importers:
   packages/ui:
     dependencies:
       '@neomatrix/theme':
-        specifier: workspace:*
+        specifier: workspace:^
         version: link:../theme
       '@neomatrix/tokens':
-        specifier: workspace:*
+        specifier: workspace:^
         version: link:../tokens
       react:
         specifier: ^18.2.0
