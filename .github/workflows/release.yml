@@ -27,7 +27,17 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Create versions or publish
+      - name: Version packages
+        run: pnpm changeset version
+
+      - name: Commit version updates
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "chore: version packages" || echo "No changes to commit"
+
+      - name: Publish packages
         run: pnpm release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
