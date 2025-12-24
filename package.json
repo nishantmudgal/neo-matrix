@@ -6,9 +6,11 @@
     "build": "turbo run build",
     "lint": "turbo run lint",
     "test": "turbo run test",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "release": "pnpm build && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.29.8",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "prettier": "^3.7.4",

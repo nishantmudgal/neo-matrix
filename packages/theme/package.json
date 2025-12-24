@@ -12,5 +12,8 @@
   },
   "dependencies": {
     "@neomatrix/tokens": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
