@@ -4,12 +4,12 @@
     "noEmit": true,
     "baseUrl": ".",
     "paths": {
-      "@neomatrix/ui": ["../../packages/ui/src/index.ts"],
-      "@neomatrix/ui/*": ["../../packages/ui/src/*"],
-      "@neomatrix/theme": ["../../packages/theme/src/index.ts"],
-      "@neomatrix/theme/*": ["../../packages/theme/src/*"],
-      "@neomatrix/tokens": ["../../packages/tokens/src/index.ts"],
-      "@neomatrix/tokens/*": ["../../packages/tokens/src/*"]
+      "@neo-matrix/ui": ["../../packages/ui/src/index.ts"],
+      "@neo-matrix/ui/*": ["../../packages/ui/src/*"],
+      "@neo-matrix/theme": ["../../packages/theme/src/index.ts"],
+      "@neo-matrix/theme/*": ["../../packages/theme/src/*"],
+      "@neo-matrix/tokens": ["../../packages/tokens/src/index.ts"],
+      "@neo-matrix/tokens/*": ["../../packages/tokens/src/*"]
     }
   },
   "include": [

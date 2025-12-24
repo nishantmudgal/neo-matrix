@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { applyTheme, getTheme, ThemeMode } from '@neomatrix/theme'
+import { applyTheme, getTheme, ThemeMode } from '@neo-matrix/theme'
 
 type Props = {
   mode?: ThemeMode

@@ -1,6 +1,6 @@
 {
-  "name": "@neomatrix/ui",
-  "version": "0.0.0",
+  "name": "@neo-matrix/ui",
+  "version": "0.0.1",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,8 +9,8 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@neomatrix/theme": "workspace:^",
-    "@neomatrix/tokens": "workspace:^",
+    "@neo-matrix/theme": "workspace:^",
+    "@neo-matrix/tokens": "workspace:^",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

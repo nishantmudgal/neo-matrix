@@ -30,7 +30,7 @@ const config: StorybookConfig = {
       ...config.resolve,
       alias: {
         ...config.resolve?.alias,
-        '@neomatrix/ui': resolve(__dirname, '../../../packages/ui/src'),
+        '@neo-matrix/ui': resolve(__dirname, '../../../packages/ui/src'),
       },
     }
     return config
