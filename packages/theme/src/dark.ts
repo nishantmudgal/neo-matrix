@@ -1,4 +1,4 @@
-import { colors } from '@neomatrix/tokens'
+import { colors } from '@neo-matrix/tokens'
 import { Theme } from './types'
 
 export const darkTheme: Theme = {

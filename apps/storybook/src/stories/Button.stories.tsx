@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react-vite'
-import { Button } from '@neomatrix/ui'
+import { Button } from '@neo-matrix/ui'
 
 const meta: Meta<typeof Button> = {
   title: 'Components/Button',
