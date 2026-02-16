@@ -1,0 +1,39 @@
+.nm-tabs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nm-tabs-list {
+    display: flex;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    margin-bottom: 16px;
+    gap: 24px;
+}
+
+.nm-tabs-trigger {
+    padding: 8px 4px;
+    font-size: 14px;
+    font-weight: 500;
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    color: #6b7280;
+    transition: all 0.2s ease;
+    margin-bottom: -2px;
+}
+
+.nm-tabs-trigger:hover {
+    color: var(--nm-color-text);
+}
+
+.nm-tabs-trigger[data-active='true'] {
+    color: var(--nm-color-primary);
+    border-bottom-color: var(--nm-color-primary);
+}
+
+.nm-tabs-content {
+    font-family: inherit;
+    color: var(--nm-color-text);
+}
