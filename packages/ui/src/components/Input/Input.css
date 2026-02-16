@@ -1,0 +1,29 @@
+.nm-input {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--nm-color-text);
+    background-color: transparent;
+    border: 1px solid var(--nm-color-primary);
+    border-radius: 6px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    font-family: inherit;
+}
+
+.nm-input:focus {
+    outline: none;
+    border-color: var(--nm-color-primary);
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+.nm-input:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.nm-input::placeholder {
+    color: #9ca3af;
+}

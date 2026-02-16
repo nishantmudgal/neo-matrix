@@ -1,0 +1,49 @@
+.nm-checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.nm-checkbox {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--nm-color-primary);
+    border-radius: 4px;
+    background-color: transparent;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.nm-checkbox::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--nm-color-background);
+    background-color: CanvasText;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+.nm-checkbox:checked {
+    background-color: var(--nm-color-primary);
+}
+
+.nm-checkbox:checked::before {
+    transform: scale(1);
+}
+
+.nm-checkbox:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+.nm-checkbox:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}

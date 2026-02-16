@@ -1,0 +1,17 @@
+.nm-text {
+  margin: 0;
+  color: var(--nm-color-text);
+  font-family: inherit;
+}
+
+/* Sizes */
+.nm-text[data-size='xs'] { font-size: 12px; }
+.nm-text[data-size='sm'] { font-size: 14px; }
+.nm-text[data-size='md'] { font-size: 16px; }
+.nm-text[data-size='lg'] { font-size: 20px; }
+.nm-text[data-size='xl'] { font-size: 24px; }
+
+/* Weights */
+.nm-text[data-weight='normal'] { font-weight: 400; }
+.nm-text[data-weight='medium'] { font-weight: 500; }
+.nm-text[data-weight='bold'] { font-weight: 700; }
